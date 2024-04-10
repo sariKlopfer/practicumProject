@@ -1,0 +1,15 @@
+C:\Software\Practicum\Managment\Managment.Services\obj\Debug\net6.0\Managment.Services.csproj.AssemblyReference.cache
+C:\Software\Practicum\Managment\Managment.Services\obj\Debug\net6.0\Managment.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Software\Practicum\Managment\Managment.Services\obj\Debug\net6.0\Managment.Services.AssemblyInfoInputs.cache
+C:\Software\Practicum\Managment\Managment.Services\obj\Debug\net6.0\Managment.Services.AssemblyInfo.cs
+C:\Software\Practicum\Managment\Managment.Services\obj\Debug\net6.0\Managment.Services.csproj.CoreCompileInputs.cache
+C:\Software\Practicum\Managment\Managment.Services\obj\Debug\net6.0\Managment.Services.dll
+C:\Software\Practicum\Managment\Managment.Services\obj\Debug\net6.0\refint\Managment.Services.dll
+C:\Software\Practicum\Managment\Managment.Services\obj\Debug\net6.0\Managment.Services.pdb
+C:\Software\Practicum\Managment\Managment.Services\bin\Debug\net6.0\Managment.Services.deps.json
+C:\Software\Practicum\Managment\Managment.Services\bin\Debug\net6.0\Managment.Services.dll
+C:\Software\Practicum\Managment\Managment.Services\bin\Debug\net6.0\Managment.Services.pdb
+C:\Software\Practicum\Managment\Managment.Services\bin\Debug\net6.0\Managment.Core.dll
+C:\Software\Practicum\Managment\Managment.Services\bin\Debug\net6.0\Managment.Core.pdb
+C:\Software\Practicum\Managment\Managment.Services\obj\Debug\net6.0\Managment.Services.csproj.CopyComplete
+C:\Software\Practicum\Managment\Managment.Services\obj\Debug\net6.0\ref\Managment.Services.dll

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Managment.Core</id>
+    <version>1.0.0</version>
+    <authors>Managment.Core</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="AutoMapper" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Y:\Groups\Group_2\קסטנר  בתיה\Practicum\Managment\Managment.Core\bin\Debug\net6.0\Managment.Core.runtimeconfig.json" target="lib\net6.0\Managment.Core.runtimeconfig.json" />
+    <file src="Y:\Groups\Group_2\קסטנר  בתיה\Practicum\Managment\Managment.Core\bin\Debug\net6.0\Managment.Core.dll" target="lib\net6.0\Managment.Core.dll" />
+  </files>
+</package>

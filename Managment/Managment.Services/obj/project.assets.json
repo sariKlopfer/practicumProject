@@ -1,0 +1,497 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.Core/4.3.4.13329": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Http": "(, )"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OpenId.Core/4.3.4.13329": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core": "[4.3.4.13329]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.62.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Net.Http/2.0.20505": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Net.Http.WebRequest.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/System.Net.Http.dll": {
+            "related": ".WebRequest.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/System.Net.Http.WebRequest.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/System.Net.Http.dll": {
+            "related": ".WebRequest.xml;.xml"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Managment.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "DotNetOpenAuth.OpenId.Core": "4.3.4.13329",
+          "Grpc.Core.Api": "2.62.0"
+        },
+        "compile": {
+          "bin/placeholder/Managment.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Managment.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
+    "DotNetOpenAuth.Core/4.3.4.13329": {
+      "sha512": "sgTuUWHv5tn1weh8jLqXytGQKWpebhk+D4e/RTNNH21eqCEs/ch+x7YxQxzp2u70DO1Hvcjb6dTDj2rO3grgxA==",
+      "type": "package",
+      "path": "dotnetopenauth.core/4.3.4.13329",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web.config.transform",
+        "dotnetopenauth.core.4.3.4.13329.nupkg.sha512",
+        "dotnetopenauth.core.nuspec",
+        "lib/net35-full/DotNetOpenAuth.Core.dll",
+        "lib/net35-full/DotNetOpenAuth.Core.xml",
+        "lib/net40-full/DotNetOpenAuth.Core.dll",
+        "lib/net40-full/DotNetOpenAuth.Core.xml",
+        "lib/net45-full/DotNetOpenAuth.Core.dll",
+        "lib/net45-full/DotNetOpenAuth.Core.xml"
+      ]
+    },
+    "DotNetOpenAuth.OpenId.Core/4.3.4.13329": {
+      "sha512": "r8XKTJ6c+YvOOQcTLMgjWsfAkNxgxp8QVsP6pRXrg1Onp5TpzNZ9ULVzKkyRRipmC0fEGitydRnjKRDD2QxLtg==",
+      "type": "package",
+      "path": "dotnetopenauth.openid.core/4.3.4.13329",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net35-full/web.config.transform",
+        "content/net40-full/web.config.transform",
+        "content/net45-full/web.config.transform",
+        "dotnetopenauth.openid.core.4.3.4.13329.nupkg.sha512",
+        "dotnetopenauth.openid.core.nuspec",
+        "lib/net35-full/DotNetOpenAuth.OpenId.dll",
+        "lib/net35-full/DotNetOpenAuth.OpenId.xml",
+        "lib/net35-full/Mono.Math.dll",
+        "lib/net35-full/Mono.Math.xml",
+        "lib/net35-full/Org.Mentalis.Security.Cryptography.dll",
+        "lib/net35-full/Org.Mentalis.Security.Cryptography.xml",
+        "lib/net40-full/DotNetOpenAuth.OpenId.dll",
+        "lib/net40-full/DotNetOpenAuth.OpenId.xml",
+        "lib/net40-full/Mono.Math.dll",
+        "lib/net40-full/Mono.Math.xml",
+        "lib/net40-full/Org.Mentalis.Security.Cryptography.dll",
+        "lib/net40-full/Org.Mentalis.Security.Cryptography.xml",
+        "lib/net45-full/DotNetOpenAuth.OpenId.dll",
+        "lib/net45-full/DotNetOpenAuth.OpenId.xml",
+        "lib/net45-full/Mono.Math.dll",
+        "lib/net45-full/Mono.Math.xml",
+        "lib/net45-full/Org.Mentalis.Security.Cryptography.dll",
+        "lib/net45-full/Org.Mentalis.Security.Cryptography.xml"
+      ]
+    },
+    "Grpc.Core.Api/2.62.0": {
+      "sha512": "q4Jj6bRZHNnE4CMLqgjiBUCKLit+tRr0simZsS2W6U++akd7CzXByeKy2tddqT68hFzP2XzceXA2YtBTfWtixA==",
+      "type": "package",
+      "path": "grpc.core.api/2.62.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "grpc.core.api.2.62.0.nupkg.sha512",
+        "grpc.core.api.nuspec",
+        "lib/net462/Grpc.Core.Api.dll",
+        "lib/net462/Grpc.Core.Api.pdb",
+        "lib/net462/Grpc.Core.Api.xml",
+        "lib/netstandard2.0/Grpc.Core.Api.dll",
+        "lib/netstandard2.0/Grpc.Core.Api.pdb",
+        "lib/netstandard2.0/Grpc.Core.Api.xml",
+        "lib/netstandard2.1/Grpc.Core.Api.dll",
+        "lib/netstandard2.1/Grpc.Core.Api.pdb",
+        "lib/netstandard2.1/Grpc.Core.Api.xml",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "sha512": "dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Options.dll",
+        "lib/net461/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.6.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "sha512": "9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Net.Http/2.0.20505": {
+      "sha512": "XRsKQP2XEd/DGLerVsU+T2pKQGTFc9ctWsIVbRblL/y+jT/BUo28aJ5mWN40oAeUwwbpXshAc8uO/LRscWav9A==",
+      "type": "package",
+      "path": "microsoft.net.http/2.0.20505",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Net.Http.WebRequest.dll",
+        "lib/net40/System.Net.Http.WebRequest.xml",
+        "lib/net40/System.Net.Http.dll",
+        "lib/net40/System.Net.Http.xml",
+        "microsoft.net.http.2.0.20505.nupkg.sha512",
+        "microsoft.net.http.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Managment.Core/1.0.0": {
+      "type": "project",
+      "path": "../Managment.Core/Managment.Core.csproj",
+      "msbuildProject": "../Managment.Core/Managment.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AutoMapper >= 13.0.1",
+      "Managment.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dell-pc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Software\\Practicum\\Managment\\Managment.Services\\Managment.Services.csproj",
+      "projectName": "Managment.Services",
+      "projectPath": "C:\\Software\\Practicum\\Managment\\Managment.Services\\Managment.Services.csproj",
+      "packagesPath": "C:\\Users\\Dell-pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Software\\Practicum\\Managment\\Managment.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Dell-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Software\\Practicum\\Managment\\Managment.Core\\Managment.Core.csproj": {
+              "projectPath": "C:\\Software\\Practicum\\Managment\\Managment.Core\\Managment.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "DotNetOpenAuth.Core 4.3.4.13329 does not provide an inclusive lower bound for dependency Microsoft.Net.Http. An approximate best match of Microsoft.Net.Http 2.0.20505 was resolved.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.Core 4.3.4.13329' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OpenId.Core 4.3.4.13329' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OpenId.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Net.Http 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
